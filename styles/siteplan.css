@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background: #181717;
+    background: #333;
     color: #ffffff;
     padding: 10px 0;
     text-align: center;
@@ -33,7 +33,7 @@ p, ul {
 }
 
 strong {
-    color: #f4a261;
+    color: #1673ca;
 }
 
 .wireframe img {
