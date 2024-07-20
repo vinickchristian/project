@@ -3,20 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photography Portfolio</title>
+    <meta name="description" content="Miamo siedjouwa vinick C., WDD 131 - Dynamic Web Fundamentals, project">
+    <meta name="author" content="Miamo siedjouwa vinick">
+    <title>Photographism</title>
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/script.js" defer></script>
 </head>
 <body>
     <header>
         <div class="container">
-        <div class="logo"> <img src="images/logo.png" alt="Rafting Site Logo"></div>
+        <div class="logo"> <img src="images/logo.png" alt="Photographism Site Logo"></div>
         <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
+            <button class="hamburger">☰</button>
+            <div class="menu">
+                <a href="index.html">Home</a>
+                <a href="gallery.html">Gallery</a>
+                <a href="contact.html">Contact</a>
+            </div>
         </nav>
     </div>
     </header>
@@ -27,19 +30,42 @@
         </section>
         <section id="intro">
             <h1>Experience the Thrill of Photography through my lens</h1>
-            <p>Discover the world through my lens.</p>
+            <p>My photography style is all about documenting the real moments, the bits in between and the natural reactions. I am passionate about good imagery, good framing and composition.
+                I have been a Flytographer for over 8 years and after hundreds of shoots I can promise you we'll have an amazing time and the best photos to take home.
+                Photography has been the witness to my life journey throughout and I am glad to be doing the same to all my clients, capturing and documenting the perfect
+                 moments at all stages of their lives, with some editorial twists, from proposals, and maternity, to newborn babies, all the way to senior and graduations. I am an awarded photographer with my photos exhibited around the world.</p>
         </section>
         <section id="featured">
             <h2>Featured Images</h2>
             <div class="image-container">
                 <!-- Lazy loading images -->
-                <img src="images/wedding.webp" alt="Description of Image 1" loading="lazy">
-                <img src="images/photography.jpg" alt="Description of Image 2" loading="lazy">
+                <img src="images/photography.webp" alt="A photographer" loading="lazy">
+                <img src="images/photography1.webp" alt="Picture of  Miamo" loading="lazy">
+                <img src="images/photography3.webp" alt="A camera" loading="lazy">
+                <img src="images/photography2.webp" alt="Someone holding a camera" loading="lazy">
+                
             </div>
+        </section>
+        <p class="closing">
+            Thank you for visiting Photographism. We are dedicated to capturing the beauty of the world through our unique blend of photography and graphic design. Whether you are looking for professional photography services, creative graphic design, or a combination of both, we are here to bring your vision to life. Please explore our <a href="gallery.html">gallery</a> to see examples of our work and visit our <a href="contact.html">contact page</a> to get in touch with us. We look forward to collaborating with you and creating something extraordinary together.
+        </p>
+        <section class="cta">
+            <a href="contact.html">Contact Us!</a>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Miamo Siedjouwa Vinick Christian</p>
-    </footer>
+        <p>&copy; 🎋Miamo Siedjouwa Vinick Christian 🎋 Cameroon</p>
+        <nav class="sociallinks">
+          <a href="https://web.facebook.com/profile.php?id=61556979156794">
+            <img src="images/facebook.svg" alt="Facebook">
+          </a>
+          <a href="https://www.linkedin.com/in/vinick-christian-miamo-siedjouwa-04757a1b9/">
+            <img src="images/linkedin.svg" alt="linkedin">
+          </a>
+          <a href="https://instagram.com">
+            <img src="images/instagram.svg" alt="Instagram">
+        </a>
+        </nav>
+      </footer>
 </body>
 </html>

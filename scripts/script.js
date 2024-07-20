@@ -1,4 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
+    const menu = document.querySelector('nav .menu');
+    const hamburgerButton = document.querySelector('.hamburger');
+
+    hamburgerButton.addEventListener('click', () => {
+        menu.classList.toggle('open');
+        hamburgerButton.textContent = menu.classList.contains('open') ? '✖' : '☰';
+    });
     // Form submission
     document.querySelector('form').addEventListener('submit', function(event) {
         event.preventDefault();
@@ -23,4 +30,5 @@ document.addEventListener('DOMContentLoaded', function() {
             img.classList.add('loaded');
         });
     });
+    
 });
